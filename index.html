@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey form</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+
+<div id="outside">
+
+	<h1>Survey for Canvas LMS Platform</h1>
+	<p id="description">Thank you for your honesty it will help us improve Canvas LMS Platform</p><br/>
+
+<body>
+
+	<form id="survery-form">
+
+		<h2>Personal Information</h2>
+
+	<div class="name">
+		<label id="name-label">Name (Optional):</label><br/>
+		<input type="text" id="name" name="name" placeholder="Enter name here"><br/>
+	</div> 
+
+	<div class="email">
+		<label id="email-label">Email:</label><br/>
+		<input type="text" id="name" name="name" placeholder="Enter email here"><br/>
+	</div>
+
+    <div class="year">
+		<label id="year-label">Year Level:</label><br/>
+		<select id="year" name="year">
+           <option value="firstyear">First Year</option>
+           <option value="secondyear">Second Year</option>
+           <option value="thirdyear">Third Year</option>
+           <option value="thirdyear">Fourth Year</option>
+        </select><br/>
+	</div>
+
+	<div class="age">
+      <label id="age-label">Age:</label><br/>
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"/>
+    </div>
+	<br/>
+
+	<div class="questions">
+		<p class="a">
+		 1. Do you want the platform to be accessible from mobile devices and tablets? </p>
+              <label><input name="student-ans" value="yes" type="radio" class="input-radio" checked />Yes</label >
+              <label><input name="student-ans" value="no" type="radio" class="input-radio" checked />No</label >
+
+        <p class="b">
+        2. Are you satisfied with Canvas LMS as a tool to distance learning?</p>
+              <label><input name="ans" value="Poor" type="checkbox" class="input-checkbox"/>Not Satisfied</label>
+              <label><input name="ans" value="data-visualization"type="checkbox" class="input-checkbox"/>Satisfied</label>
+              <label><input name="ans" value="data-visualization"type="checkbox" class="input-checkbox"/>Very Satisfied</label>
+
+        <p class="c">
+        	3. Is Canvas LMS a user-friendly? Rate it from 1 as the lowest and 3 as the higest.</p>
+        	 <label><input name="rate" value="1" type="radio" class="input-radio" />1</label>
+             <label><input name="rate" value="2"type="radio" class="input-radio"/>2</label>
+             <label><input name="rate" value="3"type="radio" class="input-radio"/>3</label>
+      </div>
+
+      <div class="suggestions">
+      <p class="d">
+      <strong>Any suggestions?</strong></p>
+      <textarea id="suggestions" class="input-textarea" name="suggestions" placeholder="Enter your suggestions here"></textarea>
+    </div>
+
+     <div class="submit">
+      <button type="submit" id="submit" class="submit-button"> Submit
+      </button>
+</div>
+</div>
+</body>
+</div>
+</form>
+</html>
+      
+
+
+
+	
+
+

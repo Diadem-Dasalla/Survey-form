@@ -1,0 +1,95 @@
+body{
+
+}
+#outside{
+	background-color: rgb(166, 166, 166);
+	padding-top: 35px;
+	padding-bottom: 30px;
+	padding-left: 150px;
+	padding-right: 150px;
+	
+
+}
+form{
+	background-color: white;
+	padding-top: 25px;
+	border-radius: 10px;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+
+}
+h2{
+	margin-left: 20%;
+}
+p{
+	text-align: center;
+	margin-left: 10px;
+
+}
+label{
+	margin-left: 20%;
+}
+label.solid{
+	outline-style: solid;
+}
+input[type=text], select{
+
+	width: 50%;
+    padding: 10px 20px;
+    margin-left: 20% ;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=number]{
+	line-height: 10px;
+	width: 50%;
+    padding: 10px 20px;
+    margin-left: 20% ;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+p.a{
+	margin-right: 27%;
+	margin-left: 10%;
+}
+p.b{
+	width: 50%;
+	margin-right: 55%;
+	margin-left: 13%;
+
+}
+p.c{
+	width: 55%;
+	margin-right: 60%;
+	margin-left: 15%;
+}
+p.d{
+	margin-right: 18%;
+	margin-left: 10%;
+	font-size: 17px;
+}
+textarea{
+	width: 50%;
+    padding: 30px 20px;
+    margin-left: 20% ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+	background-color: #4CAF50;
+	border:none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 400px;
+    cursor: pointer
+}
